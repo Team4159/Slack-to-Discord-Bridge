@@ -1,10 +1,12 @@
 # Slack2Discord
-Copies messages from Slack to a Discord server. Supports multiple channels and will create new channels on demand. Files and Images are also supported<br>
-##### Note: Messages will only be copied in real time. Any messages that are missed while the program is down will not be sent after restarting.
+Copies messages from Slack to a Discord server<br>
+Supports multiple channels and will create new channels on demand<br>
+Files and Images are also supported up to 8MB (Discord File Size Limit)
+##### Note: Messages will only be copied in real time. Any messages that are missed while the program is not running will not be sent retroactively.
 
 ### Running Slack-to-Discord-Bridge
-First clone the repository with `git clone --recursive https://github.com/Team4159/Slack2Discord`.<br>
-To run the logger, it will first need to be installed.<br>
-Run the commands `git submodule init` then `git submodule update` before entering the `Slack-to-Discord-Bridge` folder.<br>
-After installing the project to the folder, you will be able to see a new `README.md` inside it. Read the set-up instructions on the file to complete the set-up process.
-
+First clone the repository with `git clone --recurse-submodules https://github.com/Team4159/Slack2Discord`<br>
+Alternatively, clone the repository normally and run `git submodule update --init --recursive`<br>
+After running those commands, you will see a new `Slack-to-Discord-Bridge` folder<br>
+Enter the folder and you will see a new `README.md` inside it<br>
+Read the additional set-up instructions on that file to complete the set-up process.
